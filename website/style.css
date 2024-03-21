@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.headline{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.zip,
+.feel{
+	display: grid;
+	grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+}
+
+label {
+	font-weight: 600;
+}
+input[type="text"], 
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.entry{
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.title{
+    font-size: 18px;
+	font-weight: 600;
+}
+
+#entryHolder{
+	margin-top: 10px;
+}
